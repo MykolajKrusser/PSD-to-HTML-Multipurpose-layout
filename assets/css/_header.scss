@@ -1,11 +1,28 @@
-section{
+#header{
   div{
-    width: 250px;
-    height: 250px;
-    border: 1px solid black;
-    transform: rotate(45deg);
-    p{
-      transform: rotate(-45deg);
+    nav{
+      text-transform: uppercase;
+      justify-content: space-between;
+      div:first-child{
+        flex-direction: column;
+        background-color: $rectBG;
+        width: 365px;
+        height: 365px;
+        transform: rotate(45deg) translate(-50%, -20%);
+        color: $mainText;
+        font-family: $H1font;
+        text-align: center;
+        align-items: center;
+        h1{
+          font-size: 35px;
+          margin: 145px 100px 0 225px;
+          width: 50%;
+        }
+        span:last-child{
+          margin: -6px 20px 0px 170px;
+          font-size: 14px;
+        }
+      }
     }
   }
 }

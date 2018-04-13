@@ -26,6 +26,22 @@ section{
   margin: 0 auto;
   max-width: 1050px;
 }
+.container{
+  max-width: 1050px;
+  position: relative;
+  margin: 0 auto;
+}
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+.rotate{
+  transform: rotate(45deg);
+  &> *{
+    transform: rotate(-45deg);
+  }
+}
+
 .blueBtn{
   width: 130px;
   padding: 5px;
