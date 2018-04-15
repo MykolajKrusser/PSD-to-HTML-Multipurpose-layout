@@ -4,10 +4,14 @@
   background: url(../img/whyUsBg.jpg) no-repeat center;
   background-size: 100% 100%;
   z-index: 0;
+  color:$mainText;
   .container{
     flex-direction: column;
+    text-align: center;
+    align-items: center;
     .whyUs__topBanner{
       justify-content: center;
+      transform: translate(-39px, -147px);
       div:first-child{
         background: $rectBG no-repeat center;
         width: 320px;
@@ -15,7 +19,20 @@
         z-index: 1;
         text-align: center;
         align-items: center;
-        color:$mainText;
+        font-family: $mainFonts;
+        span{
+          font-size: 60px;
+          font-weight: 900;
+          margin: -20px 0 0 50px;
+        }
+        h2{
+          font-size: 22px;
+          font-weight: bold;
+          margin: 65px 0 0 -60px;
+        }
+        article{
+          margin: -55px 0 60px 60px;
+        }
       }
       .whyUs__topBanner__banner{
         width: 420px;
