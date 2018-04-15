@@ -150,39 +150,42 @@ h1, h2, h3 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 270px;
-  height: 270px;
+  margin: 185px 0 0 -45px;
+  width: 400px;
+  height: 400px;
   background-color: black;
   color: white;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  z-index: 1;
 }
 .weBest h2 {
-  margin: 60px 0 0 -110px;
+  margin: 115px 0 0 -158px;
   color: #019edb;
   font-family: "Lato", sans-serif;
   font-weight: 800;
 }
 .weBest article {
-  margin: -19px 48px 0 49px;
+  margin: 0px 90px 0 50px;
   font-family: "Lato", sans-serif;
   font-weight: 400;
 }
 .weBest a {
-  margin: -7px -116px 0 0;
+  margin: 10px -80px 0 0;
 }
 
 .blueRect {
-  width: 50px;
-  height: 50px;
+  margin: 91px -37px 0 -117px;
+  width: 65px;
+  height: 65px;
   background-color: #019edb;
 }
 
 .header__mainFoto {
-  width: 535px;
-  height: 535px;
+  width: 760px;
+  height: 760px;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
   position: relative;
@@ -228,6 +231,10 @@ h1, h2, h3 {
 
   #header div nav div:last-child a {
     margin: 5px 15px;
+  }
+
+  #header div nav div:last-child {
+    height: 175px;
   }
 }
 
