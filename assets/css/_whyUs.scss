@@ -1,0 +1,43 @@
+
+#WhyUs{
+  min-height: 100vh;
+  background: url(../img/whyUsBg.jpg) no-repeat center;
+  background-size: 100% 100%;
+  z-index: 0;
+  .container{
+    flex-direction: column;
+    .whyUs__topBanner{
+      justify-content: center;
+      div:first-child{
+        background: $rectBG no-repeat center;
+        width: 320px;
+        height: 320px;
+        z-index: 1;
+        text-align: center;
+        align-items: center;
+        color:$mainText;
+      }
+      .whyUs__topBanner__banner{
+        width: 420px;
+        height: 420px;
+        transform: rotate(45deg);
+        position: relative;
+        overflow: hidden;
+      }
+      .whyUs__topBanner__banner:before {
+        content: "";
+        position: absolute;
+        width: 200%;
+        height: 200%;
+        top: -50%;
+        left: -50%;
+        z-index: -1;
+        background: url(../img/banner.jpg) no-repeat center;
+        background-size: 71% 71%;
+      }
+      .whyUs__topBanner__banner:before {
+        transform: rotate(-45deg);
+      }
+    }
+  }
+}
