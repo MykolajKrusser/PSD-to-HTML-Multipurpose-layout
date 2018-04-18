@@ -43,6 +43,21 @@ h1,h2,h3{
   }
 }
 
+%bgRect{
+  transform: rotate(45deg);
+  position: relative;
+  overflow: hidden;
+}
+%bgRectPseudo{
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  z-index: -1;
+  transform: rotate(-45deg);
+}
 .blueBtn{
   width: 130px;
   padding: 5px;
