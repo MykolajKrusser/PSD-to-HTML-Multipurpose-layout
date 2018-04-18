@@ -1,0 +1,98 @@
+#portfolio{
+  background: url(../img/whyUsBg.jpg) no-repeat center;
+  background-size: 100% 100%;
+  z-index: -1;
+  text-align: center;
+  align-items: center;
+  .portfolio__mainFoto{
+    background: url(../img/Layer.png) no-repeat center;
+    background-position: top;
+  }
+
+  .container{
+    flex-direction: column;
+    padding: 440px 0 0 0;
+    .portfolio__mainFoto-second{
+      font-family: $mainFonts;
+      font-weight: 900;
+      font-size: 60px;
+      color: $secondText;
+      width:190px;
+      height:190px;
+      background:rgba(20, 33, 35, 0.7);
+      transform: rotate(45deg) translate(180px, -70px);
+      span{
+        margin:35px 0 0 100px;
+        transform: rotate(-45deg)
+      }
+    }
+
+    .portfolio__info_main{
+      flex-direction: row;
+      justify-content: center;
+      margin-bottom: 100px;
+      .portfolio__left__foto{
+        transform: rotate(45deg) translate(75px, 100px);
+        width:260px;
+        height:260px;
+        @extend %bgRect;
+        &:before{
+          @extend %bgRectPseudo;
+          background: url(../img/Layer2.png) no-repeat center;
+          background-size: 71% 71%;
+        }
+      }
+
+      .portfolio__info{
+        justify-content: center;
+        width: 375px;
+        height: 375px;
+        flex-direction: column;
+        background: $mainBg no-repeat center;
+        z-index: 1;
+        text-align: center;
+        align-items: center;
+        font-family: $mainFonts;
+        h2{
+          color: $secondText;
+          font-size: 38px;
+          font-weight: 900;
+          margin: -15px 0 0 -125px;
+        }
+        article{
+          margin: 0;
+          width: 70%;
+        }
+        .blueBtn{
+          margin: 0 -60px -33px 70px;
+        }
+      }
+
+      .portfolio__right__foto{
+        transform: rotate(45deg) translate(75px, 100px);
+        width:260px;
+        height:260px;
+        @extend %bgRect;
+        &:before{
+          @extend %bgRectPseudo;
+          background: url(../img/Layer3.png) no-repeat center;
+          background-size: 71% 71%;
+        }
+      }
+    }
+    .portfolio__text{
+      width: 80%;
+      margin: 100px auto;
+      color: $mainText;
+      font-family: $mainFonts;
+      padding: 25px;
+      h3{
+        font-weight: 600;
+        margin-bottom: 20px;
+      }
+      article{
+        font-weight: 300;
+      }
+    }
+  }
+}
