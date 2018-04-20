@@ -12,21 +12,6 @@
   .container{
     flex-direction: column;
     padding: 440px 0 0 0;
-    .portfolio__mainFoto-second{
-      font-family: $mainFonts;
-      font-weight: 900;
-      font-size: 60px;
-      color: $secondText;
-      width:190px;
-      height:190px;
-      background:rgba(20, 33, 35, 0.7);
-      transform: rotate(45deg) translate(180px, -70px);
-      span{
-        margin:35px 0 0 100px;
-        transform: rotate(-45deg)
-      }
-    }
-
     .portfolio__info_main{
       flex-direction: row;
       justify-content: center;

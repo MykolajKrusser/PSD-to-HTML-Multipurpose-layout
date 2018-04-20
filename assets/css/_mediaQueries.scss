@@ -1,0 +1,21 @@
+@media screen and (max-width: 960px){
+  .rwd_blocks, #howItWork .container .rwd_blocks, #testimonials .container .rwd_blocks{
+    margin: 55px 0 0 0;
+  }
+  .rwd_blocks .col, #howItWork .container .rwd_blocks .col, #testimonials .container .rwd_blocks .col{
+    width: 100%;
+    margin: 0;
+  }
+  .rwd_blocks .rwd_blocks-decor div{
+    height: 2px;
+    width: 40px;
+    background: white;
+  }
+  .rwd_blocks .rwd_blocks-decor, #howItWork .container .rwd_blocks-decor, #testimonials .container .rwd_blocks-decor {
+    flex-direction: row;
+    margin: 25px auto;
+    padding: 0;
+    justify-content: center;
+    width: 100%;
+  }
+}

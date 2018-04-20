@@ -1,4 +1,3 @@
-
 #WhyUs{
   min-height: 100vh;
   background: url(../img/whyUsBg.jpg) no-repeat center;
@@ -52,61 +51,8 @@
         background-size: 71% 71%;
       }
     }
-    .whyUs__topBanner__blocks{
-      margin: 50px 130px;
-      flex-direction: row;
-      text-align: left;
-      .col{
-        padding: 50px 30px;
-        width: 41%;
-        background: rgba(55, 54, 54, 0.5);
-        h3{
-          margin-bottom: 15px;
-          font-family: $H3fonts;
-        }
-        article{
-          font-family: $mainFonts;
-          font-weight: 400;
-        }
-      }
-      .whyUs__topBanner__blocks-decor{
-        flex-direction: column;
-        align-items: center;
-        background: transparent;
-        width: 130px;
-        div{
-          height: 40px;
-          width: 2px;
-          background: white;
-        }
-        .rotate{
-          width: 15px;
-          height: 15px;
-          margin: 10px;
-        }
-      }
-    }
     .blueBtn{
       margin: 55px 0;
     }
-  }
-}
-@media screen and (max-width: 960px){
-  #WhyUs .container .whyUs__topBanner__blocks{
-    margin: 55px 0 0 0;
-  }
-  #WhyUs .container .whyUs__topBanner__blocks .col{
-    width: 100%;
-    margin: 0;
-  }
-  #WhyUs .container .whyUs__topBanner__blocks .whyUs__topBanner__blocks-decor div{
-    height: 2px;
-    width: 40px;
-    background: white;
-  }
-  #WhyUs .container .whyUs__topBanner__blocks .whyUs__topBanner__blocks-decor{
-    flex-direction: row;
-    margin: 0 auto;
-    justify-content: center;
   }
 }
