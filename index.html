@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Mykolaj Krusser">
     <link type="text/css" href="assets/css/style.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>Multipurpose Website</title>
 </head>
 <body>
@@ -19,12 +20,12 @@
             <div class="blackPoint"></div>
             <div class="blackRect"></div>
             <div class="flex">
-                <a href="#">home</a>
-                <a href="#">about us</a>
-                <a href="#">blog</a>
-                <a href="#">service</a>
-                <a href="#">pages</a>
-                <a href="#">contact us</a>
+                <a href="#header">home</a>
+                <a href="#WhyUs">about us</a>
+                <a href="#portfolio">blog</a>
+                <a href="#howItWork">service</a>
+                <a href="#testimonials">pages</a>
+                <a href="#socials">contact us</a>
             </div>
         </nav>
         <div class="rowRect flex">
@@ -170,5 +171,67 @@
         </div>
     </div>
 </section>
+<section id="socials">
+    <ul class="container flex">
+        <li class="facebook"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></li>
+        <li class="twitter"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></li>
+        <li class="instagram"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></li>
+        <li class="google"><i class="fa fa-google fa-2x" aria-hidden="true"></i></li>
+        <li class="whatsapp"><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></li>
+        <li class="youtube"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></li>
+        <li class="vk"><i class="fa fa-vk fa-2x"></i></li>
+    </ul>
+</section>
+<section id="contact">
+    <div class="container flex">
+        <div class="rectSteps rotate flex">
+            <span>5.</span>
+        </div>
+        <h2>get in touch</h2>
+        <div class="flex rwd_blocks">
+            <div class="col flex">
+                <img src="assets/img/icon_1.png" alt="">
+                <div class="flex">
+                    <h3>email</h3>
+                    <a href="mailto:models@models.com">models@models.com</a>
+                </div>
+            </div>
+            <div class="col flex">
+                <img src="assets/img/icon_2.png" alt="">
+                <div class="flex">
+                    <h3>call us</h3>
+                    <a href="tel:+7-888-555-555">+7-888-555-555</a>
+                    <a href="tel:+7-888-555-555">+7-888-555-555</a>
+                </div>
+            </div>
+            <div class="col flex">
+                <img src="assets/img/icon_3.png" alt="">
+                <div class="flex">
+                    <h3>adress</h3>
+                    <span>123, Main Road, New City, Country QWERTY</span>
+                </div>
+            </div>
+        </div>
+        <footer><span>copyright 2019</span> | Designed by PSDFreebies.com | Created by Mykolaj Krusser</footer>
+        <a href="#header" class="toTop flex">
+            <span>TOP</span>
+        </a>
+    </div>
+</section>
+<section id="decor">
+
+</section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    $('a[href]').click(function() {
+        $("html, body").animate({
+            scrollTop: $($(this).attr("href")).offset().top + "px"
+        }, {
+            duration: 1500,
+            easing: "swing"
+        });
+        return false;
+    });
+</script>
 </body>
 </html>
