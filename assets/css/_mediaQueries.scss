@@ -1,8 +1,8 @@
 @media screen and (max-width: 960px){
-  .rwd_blocks, #howItWork .container .rwd_blocks, #testimonials .container .rwd_blocks{
-    margin: 55px 0 0 0;
+  .rwd_blocks, #howItWork .container .rwd_blocks, #testimonials .container .rwd_blocks, #contact .container .rwd_blocks{
+    margin: 55px 0 55px 0;
   }
-  .rwd_blocks .col, #howItWork .container .rwd_blocks .col, #testimonials .container .rwd_blocks .col{
+  .rwd_blocks .col, #howItWork .container .rwd_blocks .col, #testimonials .container .rwd_blocks .col, #contact .container .rwd_blocks .col{
     width: 100%;
     margin: 0;
   }

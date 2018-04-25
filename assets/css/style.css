@@ -299,6 +299,7 @@ h1, h2, h3 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin: 0 auto;
   }
 
   #header div nav div:last-child a {
@@ -613,7 +614,7 @@ h1, h2, h3 {
 #socials {
   min-height: 155px;
   background: #019edb;
-  padding-top: 40px;
+  padding: 30px;
 }
 #socials .container {
   -webkit-box-orient: horizontal;
@@ -629,7 +630,7 @@ h1, h2, h3 {
   width: 64px;
   height: 64px;
   line-height: 75px;
-  margin: 0 10px;
+  margin: 10px;
   text-align: center;
   cursor: pointer;
   border-radius: 50%;
@@ -852,11 +853,11 @@ h1, h2, h3 {
 }
 
 @media screen and (max-width: 960px) {
-  .rwd_blocks, #howItWork .container .rwd_blocks, #testimonials .container .rwd_blocks {
-    margin: 55px 0 0 0;
+  .rwd_blocks, #howItWork .container .rwd_blocks, #testimonials .container .rwd_blocks, #contact .container .rwd_blocks {
+    margin: 55px 0 55px 0;
   }
 
-  .rwd_blocks .col, #howItWork .container .rwd_blocks .col, #testimonials .container .rwd_blocks .col {
+  .rwd_blocks .col, #howItWork .container .rwd_blocks .col, #testimonials .container .rwd_blocks .col, #contact .container .rwd_blocks .col {
     width: 100%;
     margin: 0;
   }
